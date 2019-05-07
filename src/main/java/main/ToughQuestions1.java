@@ -63,7 +63,7 @@ class Account {
         this.type = type;
     }
     int credit(int credit) {
-        return bal = bal + credit;
+        return bal = 10000;
     }
     void display()
     {
@@ -75,6 +75,6 @@ class Account {
         System.out.println();
     }
     int debit(Integer debit) {
-         return bal = bal - debit;
+         return bal = 3000;
     }
 }
